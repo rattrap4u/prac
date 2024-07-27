@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p id="id"></p>
+        <p></p>
+        <ul>
+            <li>Use console.log() for console output, alert() for pop-up messages, document.write() for direct document writing, or update HTML elements via DOM manipulation.</li>
+            <li>Four types: console output, alert boxes, document writing, and DOM updates.</li>
+        </ul>
+        <p id="id1"></p>
+        <h3>Data Types</h3>
+        <h5>JavaScript is a dynamically typed (also called loosely typed) scripting language. In JavaScript, variables can receive different data types over time. The latest ECMAScript standard defines eight data types Out of which seven data types are Primitive (predefined) and one complex or Non-Primitive.</h5>
+        <h4>Primitive Data types</h4>
+        <li>Number: JavaScript numbers are always stored in double-precision 64-bit binary format IEEE 754. Unlike other programming languages, you don’t need int, float, etc to declare different numeric values.</li>
+        <li>String: JavaScript Strings are similar to sentences. They are made up of a list of characters, which is essentially just an “array of characters, like “Hello GeeksforGeeks” etc.</li>
+        <li>Boolean: Represent a logical entity and can have two values: true or false.</li>
+        <li>Null: This type has only one value that is null.</li>
+        <li>Undefined: A variable that has not been assigned a value is undefined.</li>
+        <li>Symbol: Symbols return unique identifiers that can be used to add unique property keys to an object that won’t collide with keys of any other code that might add to the object.</li>
+        <li>BigInt: BigInt is a built-in object in JavaScript that provides a way to represent whole numbers larger than 2^53-1.</li>
+        <script>
+            // Use console.log() for console output, alert() for pop-up messages, document.write() for direct document writing, or update HTML elements via DOM manipulation.
+            // Four types: console output, alert boxes, document writing, and DOM updates.
+
+            document.getElementById('id').innerHTML="Hi this is Tushar";
+            document.write("Hi myself Tushar.");
+            window.alert("Keep on practicing daily");
+            document.getElementById('id1').innerHTML=prompt`how are you ?`
+        </script>
+        <br>
+        <hr>
+        <button onclick="window.print()">Print</button>
+    </div>
+    
+</body>
+</html>
